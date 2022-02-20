@@ -1,22 +1,28 @@
-.h1{
-    color: red;
+.h1 {
+  color: red;
 }
 
-em{
-    color: green;
+em {
+  color: green;
 }
 
-li{
-    font-weight:bold;
-}
-li em{
-    font-size:x-large;
+li {
+  font-weight: bold;
 }
 
-.wikipedia:hover{
-    color: red;
+li em {
+  font-size: x-large;
 }
 
-.wikipedia:visited{
-    color: aqua;
+a{
+  text-decoration: none;
+}
+
+.wikipedia:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.wikipedia:visited {
+  color: aqua;
 }
