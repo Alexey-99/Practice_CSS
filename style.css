@@ -64,18 +64,52 @@ a {
 }
 
 .list-group {
-  /* border: 1px #666; */
   list-style-type: none;
 }
 
 .list-group a {
   color: black;
-  display:inherit ;
+  display: block;
   text-decoration: none;
+}
+
+.list-group-item {
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .list-group-item a:hover {
   background: #0d6efd;
   color: white;
+}
+
+.card-img-top {
+  width: 350px;
+  border: 0.5px solid black;
+  display: flex;
+  margin: auto;
+  
+}
+
+.card-body {
+  width: 350px;
+  height: 200px;
+  border: 0.5px solid black;
+  margin: auto;
+  position: relative;
+}
+
+.card-text, .card-title{
+  padding: 5px;
+}
+
+.btn {
+  bottom: 10px;
+  left: 10px;
+  width: auto;
+  background: #e45d80;
+  color: aliceblue;
+  margin: auto;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
 }
