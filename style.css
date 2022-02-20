@@ -12,3 +12,11 @@ li{
 li em{
     font-size:x-large;
 }
+
+.wikipedia:hover{
+    color: red;
+}
+
+.wikipedia:visited{
+    color: aqua;
+}
