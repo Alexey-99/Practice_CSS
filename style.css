@@ -44,16 +44,38 @@ a {
   border: 4px;
   border-style: solid;
   margin: auto;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.circle {
+.flag-circle {
   height: 240px;
   width: 240px;
   background: red;
   border-radius: 50%;
   margin: auto;
   position: static;
+}
+
+.lesson {
+  text-align: center;
+  font-size: x-large;
+}
+
+.list-group {
+  /* border: 1px #666; */
+  list-style-type: none;
+}
+
+.list-group a {
+  color: black;
+  display:inherit ;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.list-group-item a:hover {
+  background: #0d6efd;
+  color: white;
 }
