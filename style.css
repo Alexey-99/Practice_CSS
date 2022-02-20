@@ -14,7 +14,7 @@ li em {
   font-size: x-large;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -25,4 +25,35 @@ a{
 
 .wikipedia:visited {
   color: aqua;
+}
+
+/* Упражнение 2. Сокращённые свойства */
+.element {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: sans-serif;
+  font: 18px normal "Robota", sans-serif;
+}
+
+/* Упражнение 3. Флаг */
+
+.flag {
+  width: 600px;
+  height: 400px;
+  padding: 20px;
+  border: 4px;
+  border-style: solid;
+  margin: auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  height: 240px;
+  width: 240px;
+  background: red;
+  border-radius: 50%;
+  margin: auto;
+  position: static;
 }
